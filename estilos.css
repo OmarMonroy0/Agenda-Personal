@@ -1,0 +1,65 @@
+img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px grey;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: separate;  
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+th {
+    text-align: center;
+    background-color: lightblue;
+    padding: 12px;
+    font-size: 16px;
+    width: 25%;
+}
+td {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 12px;
+    font-size: 16px;
+    width: 25%;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
+select {
+    background-color: lightpink;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 50px;
+    border-radius: 5px;
+  }
+
+#agregar{
+    display: none;
+}
+
+#eliminar{
+    display: none;
+}
+
+#codigo{
+    display: none;
+}
+
+#contactos{
+    display: none;
+}

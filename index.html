@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi agenda Personal</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1>Contactos de mi Agenda (Monroy Alarcon)</h1>
+    <img src="./public/agenda.png" alt="agenda" />
+    <label for="opciones">¿Que accion deseas realizar?</label>
+
+    <select id="opciones" title="¿Que accion deseas realizar?">
+      <option value="opcion1" onclick="MostrarAgregar()">Agregar un contacto</option>
+      <option value="opcion2" onclick="MostrarContactos()">
+        Mostrar la lista de contactos
+      </option>
+      <option value="opcion3" onclick="MostrarEliminar()">Eliminar un contacto de la lista</option>
+      <option value="opcion4" onclick="EliminarLista()">
+        Eliminar todos los contactos
+      </option>
+      <option value="opcion5" onclick="MostrarLink()" > Mostrar el link que te llevara al codigo fuente del programa</option>
+    </select>
+
+    <form id="agregar">
+      <label for="nombreA">Nombre:</label>
+      <input type="text" id="nombreA" />
+      <label for="direccionA">Direccion:</label>
+      <input type="text" id="direccionA" />
+      <label for="telefonoA">Telefono:</label>
+      <input type="text" id="telefonoA" />
+      <label for="emailA">Correo Electrónico:</label>
+      <input type="email" id="emailA" />
+      <button type="button" onclick="AgregarContacto()">AgregarContacto</button>
+    </form>
+    <form id="eliminar">
+      <label for="nombreE">Nombre:</label>
+      <input type="text" id="nombreE" />
+      <label for="direccionE">Direccion:</label>
+      <input type="text" id="direccionE" />
+      <label for="telefonoE">Telefono:</label>
+      <input type="text" id="telefonoE" />
+      <label for="emailE">Correo Electrónico:</label>
+      <input type="email" id="emailE" />
+      <button type="button" onclick="EliminaContacto()">
+        Eliminar Contacto
+      </button>
+    </form>
+
+    <ol id="contactos"></ol>
+
+    <a href="https://github.com/OmarMonroy0/Agenda-Personal.git" id="codigo">
+        Link al codigo fuente del proyecto</a
+        >
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--
+
+    Tiempo restante 1:34:15
+Pregunta 12
+Sin responder aún
+Puntaje de 3.00
+Señalar con bandera la pregunta
+Texto de la pregunta
+
+Escribe el código para crear una aplicación web que simule   
+una sencilla agenda personal que muestre nombre,
+ dirección,  teléfono y  correo electrónico de tus contactos,utiliza:
+
+debe tener al  menos, una imagen, una tabla, una lista ordenada, un formulario, un link
+
+
+-->
