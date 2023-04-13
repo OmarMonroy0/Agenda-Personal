@@ -5,6 +5,6 @@
 
 ### INSTRUCCIONES
 
-Para ver el codigo corriendo unicamente debe descar el zip
-y correr el archivo index.htmls
+Para ver el codigo corriendo unicamente debe descargar el zip
+y correr el archivo index.html
 
